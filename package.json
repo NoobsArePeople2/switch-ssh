@@ -1,0 +1,19 @@
+{
+  "name": "switch-ssh",
+  "version": "0.1.0",
+  "description": "Switch SSH credentials with a single command.",
+  "author": "Sean Monahan <sean@seanmonahan.org>",
+  "license": "MIT",
+  "main": "switch-ssh.js",
+  "dependencies": {
+    "chalk": "0.5.1",
+    "yargs": "1.3.1"
+  },
+  "bin": {
+    "switch-ssh": "./bin/switch-ssh-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NoobsArePeople2/switch-ssh.git"
+  }
+}
